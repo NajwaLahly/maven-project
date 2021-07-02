@@ -1,23 +1,25 @@
 /**
- *An abstract class that represents an algorithm.
+* This is a package.
 */
 package com.example;
 
 /**
- * this is a class.
- */
+* This is a class.
+*/
 public class Greeter {
-/**
- * this is a constructor.
- */
+
+  /**
+   * This is a constructor.
+   */
   public Greeter() {
 
   }
-/**
- * @param someone name of person
- * @return String
- */
+
+  /**
+  * @param someone name of a person
+  * @return greeting string
+  */
   public final String greet(final String someone) {
-    return String.format("Hello babacar, %s!", someone);
+    return String.format("Hello, %s!", someone);
   }
 }
