@@ -1,5 +1,5 @@
 /**
-* This is a package.
+* Javadoc package.
 */
 package com.example;
 
