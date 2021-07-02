@@ -8,13 +8,13 @@ package com.example;
 */
 public class Greeter {
 
-    /**
-    *This is a constructor
-    */  
+  /**
+   *This is a constructor
+   */  
   public Greeter() {
   }
 
-    /**
+  /**
    * @param someone name
    * @return greeting string
    */
