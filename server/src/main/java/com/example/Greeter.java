@@ -1,23 +1,22 @@
 /**
-* Javadoc du package
+ *An abstract class that represents an algorithm.
 */
 package com.example;
 
 /**
-* This is a class
-*/
+ * this is a class.
+ */
 public class Greeter {
-
-  /**
-  * This is a constructor
-  */  
+/**
+ * this is a constructor.
+ */
   public Greeter() {
-  }
 
-  /**
-  * @param someone name
-  * @return greeting string
-  */
+  }
+/**
+ * @param someone name of person
+ * @return String
+ */
   public final String greet(final String someone) {
     return String.format("Hello babacar, %s!", someone);
   }
